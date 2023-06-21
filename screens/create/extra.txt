@@ -1,0 +1,16 @@
+            <View style={styles.cont1}>
+
+                <Text style={styles.txt1}>Create an Account</Text>
+
+
+                
+            </View>
+
+            <View style={styles.cont2}>
+                <TouchableHighlight 
+                    style={styles.log0but4}
+                    underlayColor = "#B484A7"
+                    onPress={() => navigation.navigate('NoAcc')}
+                >
+                    <Text style={styles.log0bt2}>Need help? Click here to rewatch the tutorial!</Text>
+                </TouchableHighlight>
